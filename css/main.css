@@ -1,0 +1,256 @@
+.experienciaTexto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 50px 250px; }
+
+.auris {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .auris .textoAuris {
+    width: 500px;
+    text-align: center; }
+  .auris .imagenAuris img {
+    width: 500px;
+    height: 500px; }
+
+.contenedorTarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #ffffff; }
+  .contenedorTarjetas .tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 350px;
+    height: 400px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 10px 13px -6px rgba(253, 253, 253, 0.226), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02); }
+    .contenedorTarjetas .tarjeta:hover {
+      box-shadow: 0px 10px 13px -6px rgba(253, 253, 253, 0.486), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02); }
+    .contenedorTarjetas .tarjeta p {
+      text-align: center;
+      margin: 20px; }
+
+/*Comprar*/
+.comprar {
+  background-color: #ffffff; }
+
+.container {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: 960px;
+  width: 100%; }
+
+.panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 50px;
+  position: relative;
+  width: 100%;
+  z-index: 10; }
+
+@media (min-width: 900px) {
+  .pricing-table {
+    flex-direction: row; } }
+
+.pricing-table * {
+  text-align: center;
+  text-transform: uppercase; }
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px; }
+
+.pricing-plan:last-child {
+  border-bottom: none; }
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px; }
+  .pricing-plan:last-child {
+    border-right: none; } }
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%; }
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px; }
+
+.pricing-price {
+  color: #016FF9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700; }
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out; }
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff; }
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: #fff; }
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #269aff; }
+
+.textoFinal .finalContenedor {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  color: white; }
+  .textoFinal .finalContenedor div {
+    width: 350px; }
+
+/*Margin reset*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Font y background color*/
+body {
+  background-color: #121212;
+  font-family: 'Montserrat', sans-serif; }
+
+/*Scroll*/
+html {
+  scroll-behavior: smooth; }
+
+/*Bold*/
+.font-weight {
+  font-weight: bold; }
+
+/*Banner*/
+.bannerIndex {
+  height: 500px;
+  width: 100%;
+  overflow: hidden; }
+  .bannerIndex .imagenIndex {
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../multimedia/banner/estrellas.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .bannerIndex .imagenIndex .textoIndex {
+      color: #ffffff;
+      text-align: center; }
+    .bannerIndex .imagenIndex .logoIndex {
+      display: flex;
+      justify-content: center; }
+      .bannerIndex .imagenIndex .logoIndex img {
+        width: 500px;
+        height: 500px; }
+
+/*Nav*/
+.nav {
+  background-color: #121212;
+  margin: 10px 0; }
+
+.nav-item .nav-link {
+  color: #ffffff; }
+  .nav-item .nav-link:hover {
+    color: #b1b1b1; }
+
+/*Texto*/
+.textoIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  height: 200px; }
+  .textoIndex p {
+    width: 800px;
+    text-align: center; }
+
+/*Cards*/
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .cards .cardContenedor {
+    width: 70%;
+    height: auto; }
+    .cards .cardContenedor a {
+      text-decoration: none;
+      color: #ffffff; }
+    .cards .cardContenedor .imagenContenedor {
+      margin: 40px 0;
+      overflow: hidden;
+      height: 470px;
+      border-radius: 5px; }
+      .cards .cardContenedor .imagenContenedor img {
+        width: 100%;
+        height: 100%;
+        transition: 3s;
+        object-fit: cover; }
+        .cards .cardContenedor .imagenContenedor img:hover {
+          transform: scale(1.2);
+          filter: brightness(0.3); }
+    .cards .cardContenedor .cardTexto {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center; }
+      .cards .cardContenedor .cardTexto .comenzar {
+        width: 150px;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        border-radius: 4px;
+        background-color: black;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        transition: ease-out 0.3s;
+        outline: none; }
+        .cards .cardContenedor .cardTexto .comenzar:hover {
+          box-shadow: inset 150px 0 0 0 #ffffff;
+          color: #000000; }
+
+/*Footer*/
+footer {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  background-image: url(../multimedia/banner/estrellas.jpg);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.contenedorRedes a img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  transition: all 0.2s ease-in-out; }
+  .contenedorRedes a img:hover {
+    transform: scale(0.8); }
